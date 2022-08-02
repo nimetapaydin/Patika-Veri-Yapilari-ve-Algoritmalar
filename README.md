@@ -33,7 +33,7 @@ Sıradaki sayı 16. 16 ile 27 karşılaştırılıyor ve 16 küçük olduğu iç
 
 22 16 27 | 2 18 6 (sıralamamız henüz bitmedi çünkü 16, 22’den de küçük)
 
-16 22 27 | 2 18 6 (şimdi 3. sıralamayı tamamladık ve bir sonraki sayı 2’yi alabiliriz:)
+16 22 27 | 2 18 6 (şimdi 3. sıralamayı tamamladık ve bir sonraki sayı 2’yi alabiliriz )
 
 16 22 2 27 | 18 6
 
@@ -88,3 +88,13 @@ Average case: Aradığımız sayının ortada olması,
 3 5 7 | 8 2 9 4 15 6
 
 ```
+
+
+# Proje içi Patika linki
+
+[Patika](https://www.patika.dev/tr)
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
