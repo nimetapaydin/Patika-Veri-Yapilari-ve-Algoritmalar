@@ -31,7 +31,7 @@ sıradaki sıralamada sıralayacağımız sayı 27. 22 ile 27’yi karşılaşt�
 
 Sıradaki sayı 16. 16 ile 27 karşılaştırılıyor ve 16 küçük olduğu için 27 ile yer değiştiriyorlar :
 
-22 16 27 | 2 18 6 (sıralamamız henüz bitmedi çünkü 21, 33’ten de küçük:)
+22 16 27 | 2 18 6 (sıralamamız henüz bitmedi çünkü 16, 22’den de küçük)
 
 16 22 27 | 2 18 6 (şimdi 3. sıralamayı tamamladık ve bir sonraki sayı 2’yi alabiliriz:)
 
@@ -61,8 +61,30 @@ sıradaki sıralamada 6’yı sıralayacağız:
 
 2 6 16 18 22 27 |
 
+2.Big-O gösterimini yazınız
 
-Sokma sıralamasının (insert sort) performansı O(n2)’dir. Bunun sebebi dizideki eleman sayısı kadar geçiş gerekmesi ve her geçişte en kötü ihtimalle elemsan sayısı kadar kaydırma gerekmesidir. Yani insertion sort’un en kötü durumu tersten sıralı bir listedir. Yukarıdaki örneği düşünecek olursak:
+İnsert Sort Big-O gösterimi O(n^2)’dir. Bunun sebebi dizideki eleman sayısı kadar sıralama için yer değiştirme gerekmesi ve her geçişte en kötü ihtimalle eleman sayısı kadar kaydırma gerekmesidir.
 
-83 73 56 44 33 22 21 sıralamasındaki bir dizi en uzun sürede sıralanan dizidir. Buna karşılık sıralı bir dizi verildiğinde diziye 2n sayıda erişim erişim yeterlidir.
+
+3.Time Complexity: 
+Average case: Aradığımız sayının ortada olması,
+Worst case: Aradığımız sayının sonda olması,tersten sıralı bir liste
+Best case: Aradığımız sayının dizinin en başında olması.
+
+4.Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? 
+2 6 16 18 22 27 |
+Average case: Aradığımız sayının ortada olması,
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+7 | 3 5 8 2 9 4 15 6
+
+7 3 | 5 8 2 9 4 15 6
+
+3 7 | 5 8 2 9 4 15 6
+
+3 7 5 | 8 2 9 4 15 6
+
+3 5 7 | 8 2 9 4 15 6
+
 ```
