@@ -89,6 +89,38 @@ Average case: Aradığımız sayının ortada olması,
 
 ```
 
+## Merge Sort Projesi - Proje 2
+
+```
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+
+1. adım dizi ikiye bölünür:
+
+16,21,11 ve 8,12,22
+
+2. adım dizinin yeni halini de ikiye böl:
+
+16,21 ; 11,8 ; 12,22
+
+3. adım elde edilen parçalar 2 veya daha küçük eleman sayısına ulaştığı için duruyoruz (yoksa bölme işlemi devam eder)
+
+4. adım her parçayı kendi içinde sıralanır
+
+16,21 ; 8,11 ; 12,22
+
+5. Bölünmüş parçaları sıraya dikkat ederek birleştiriyoruz 
+
+8,16,21 ve 11,12,22
+
+6. adım, tek bir bütün parça haline gelene kadar birleştiriyoruz
+
+8,11,12,16,21,22
+
+```
 
 # Proje içi Patika linki
 
@@ -97,4 +129,5 @@ Average case: Aradığımız sayının ortada olması,
 # License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 
