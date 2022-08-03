@@ -120,6 +120,10 @@ Big-O gösterimini yazınız.
 
 8,11,12,16,21,22
 
+Big-O gösterimini yazınız.
+
+Big-O gösterimi O(nlog(n))’dir.
+
 ```
 
 # Proje içi Patika linki
