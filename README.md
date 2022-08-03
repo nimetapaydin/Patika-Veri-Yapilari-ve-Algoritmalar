@@ -126,6 +126,41 @@ Big-O gösterimi O(nlog(n))’dir.
 
 ```
 
+
+
+## Binary Search Tree Projesi - Proje 3
+
+```
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+![figure](https://raw.githubusercontent.com/nimetapaydin/Patika-Veri-Yapilari-ve-Algoritmalar/main/figure/binarysearchtree.png)
+
+Root 7
+
+İkici elemanımız "5". 5, 7'den küçük sola ekledik
+
+üçüncü elemanımız "1". 1, 7'den ve 5 ten küçük. Bu sebeple 5 in soluna ekledik
+
+dördüncü elemanımız "8". 8, 7'den büyük 7'nin sağına ekledik.
+
+beşinci elemanımız "3". 3, 7 den küçük solda olmalı. Aynı zamanda 5 ten de küçük ama 1 den büyük bu sebeple 1'in sağında olmalı
+
+altıncı elemanımız "6". 6, 7 den küçük solda olmalı. Aynı zamanda 5 ten büyük bu yüzden beşin sağında olmalı
+
+yedinci elemanımız "0" . 0, 7 den küçük solda olmalı. Aynı zamanda 5 ten de ve 1 dende küçük bu sebeple 1'in solunda olmalı
+
+sekizinci elemanımız "9". 9, 7'den büyük 7'nin sağına ekledik. Aynı zamanda 8 den de büyük bu sebeple 8'in sağında olmalı
+
+dokuzuncu elemanımız "4". 4, 7den küçük solda olmalı. Aynı zamanda 5 ten de küçük ama 1 den büyük ayrıca 3 den de büyük bu sebeple 3'ün sağında olmalı
+
+onunca elemanımız "2". 2, 7 den küçük solda olmalı. Aynı zamanda 5 ten de küçük ama 1 den büyük aynı şekilde 3 dende küçük yani 3'ün solunda olmalı
+
+```
+
+
+
 # Proje içi Patika linki
 
 [Patika](https://www.patika.dev/tr)
