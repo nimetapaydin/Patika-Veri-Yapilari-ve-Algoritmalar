@@ -135,8 +135,11 @@ Big-O gösterimi O(nlog(n))’dir.
 
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
 
+```
+
 ![figure](https://raw.githubusercontent.com/nimetapaydin/Patika-Veri-Yapilari-ve-Algoritmalar/main/figure/binarysearchtree.png)
 
+```
 Root 7
 
 İkici elemanımız "5". 5, 7'den küçük sola ekledik
